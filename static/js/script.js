@@ -1,11 +1,11 @@
 const progressBar = document.getElementById('progress-bar');
 const encodedUrls = [
-  'aHR0cHM6Ly9meWxpbmsubGluay8jL2hvbWU=',
-  'aHR0cHM6Ly9meWxpbmsudGVjaC8jL2hvbWU='
+  'aHR0cHM6Ly9meWxpbmsubGluay8jL2xvZ2lu',
+  'aHR0cHM6Ly9meWxpbmsudGVjaC8jL2xvZ2lu'
 ];
 let redirectionUrl = '';
 
-const defaultUrl = 'aHR0cHM6Ly9meWxpbmsubGluay8jL2hvbWU='; 
+const defaultUrl = 'aHR0cHM6Ly9meWxpbmsubGluay8jL2xvZ2lu'; 
 
 let progress = 0;
 let firstTryCompleted = false;
